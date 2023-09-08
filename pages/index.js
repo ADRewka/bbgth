@@ -13,25 +13,25 @@ export default function index() {
     <header data-bs-theme="dark">
   <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div className="container-fluid">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-      <a className="navbar-brand" href="#">Camera</a>
+    <Image src="/wall/download.png" className="bd-placeholder-img rounded-circle" alt="image" width={25} height={25}/>
+      <a className="navbar-brand" href="#">bbgun shopp</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav me-auto mb-2 mb-md-0">
           <li className="nav-item">
-          <Link class="nav-link active" aria-current="page" href="/"> หน้าแรก</Link>
+            <a className="nav-link active" aria-current="page"Link href="/.">หน้าแรก</a>
           </li>
           <li className="nav-item">
-          <Link class="nav-link active" aria-current="page" href="about"> เกี่ยวกับเรา</Link>
+            <a className="nav-link"Link href="about">เกี่บวกับเรา</a>
           </li>
           <li className="nav-item dropdown">
   <a className="nav-link dropdown-toggle"Link href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     บริการของเรา
   </a>
   <ul className="dropdown-menu">
-  <Link className="dropdown-item" href="serve"> บริการของเรา</Link>
+    <li><a className="dropdown-item"Link href="serve">บริการของเรา</a></li>
     <li><a className="dropdown-item"Link href="#">Another action</a></li>
     <li><hr className="dropdown-divider" /></li>
     <li><a className="dropdown-item"Link href="#">Something else here</a></li>
@@ -39,7 +39,7 @@ export default function index() {
 </li>
 
           <li className="nav-item">
-          <Link class="nav-link active" aria-current="page" href="contact"> ติดต่อเรา </Link>
+            <a className="nav-link "Link href="contact">ติดต่อเรา</a>
           </li>
         </ul>
         <form className="d-flex" role="search">
@@ -56,13 +56,13 @@ export default function index() {
 <div id="carouselExample" className="carousel slide">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <Image src="/view.jpg" className="d-block w-100" alt="view" width={400} height={800}/>
+      <Image src="/wall/view.jpg" className="d-block w-100" alt="view" width={400} height={800}/>
     </div>
     <div className="carousel-item">
-      <Image src="/view2.jpg" className="d-block w-100" alt="view2" width={400} height={800}/>
+      <Image src="/wall/view4.jpg" className="d-block w-100" alt="view2" width={400} height={800}/>
     </div>
     <div className="carousel-item">
-      <Image src="/view3.jpg" className="d-block w-100" alt="view3" width={400} height={800}/>
+      <Image src="/wall/view3.jpg" className="d-block w-100" alt="view3" width={400} height={800}/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -81,21 +81,21 @@ export default function index() {
   <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"></div>
   <div className="row">
     <div className="col-lg-4">
-    <Image src="/11.jpg" className="bd-placeholder-img rounded-circle" alt="11" width={140} height={140}/>
-      <h2 className="fw-normal">กล้องถ่ายรูป</h2>
-      <p>ความสวยงามและเลนส์กล้องที่คมชัด</p>
+    <Image src="/wall/Cate_Co2_Pistols.jpg" className="bd-placeholder-img rounded-circle" alt="11" width={140} height={140}/>
+      <h2 className="fw-normal">bbgun</h2>
+      <p>รุ่นปืนพก</p>
       <p><a className="btn btn-secondary" href="#">View details »</a></p>
     </div>{/* /.col-lg-4 */}
     <div className="col-lg-4">
-    <Image src="/12.jpg" className="bd-placeholder-img rounded-circle" alt="12" width={140} height={140}/>
-      <h2 className="fw-normal">กล้องถ่ายรูป</h2>
-      <p>ใช้งานง่ายมีสายคล้องคอได้และสามารถพกพาได้ง่าย</p>
+    <Image src="/wall/Categories_Sniper.jpg" className="bd-placeholder-img rounded-circle" alt="12" width={140} height={140}/>
+      <h2 className="fw-normal">bbgun</h2>
+      <p>รุ่นปืนยาว</p>
       <p><a className="btn btn-secondary" href="#">View details »</a></p>
     </div>{/* /.col-lg-4 */}
     <div className="col-lg-4">
-    <Image src="/13.jpg" className="bd-placeholder-img rounded-circle" alt="13" width={140} height={140}/>
-      <h2 className="fw-normal">ถ่ายภาพ</h2>
-      <p>การถ่ายภาพนั้นสามารถถ่ายจากบุคคลใดก็ได้ทุกเพศทุกวัย</p>
+    <Image src="/wall/Categoeries_grenade.jpg" className="bd-placeholder-img rounded-circle" alt="13" width={140} height={140}/>
+      <h2 className="fw-normal">bbgun</h2>
+      <p>cชนิดอุปกรณ์เสริม</p>
       <p><a className="btn btn-secondary" href="#">View details »</a></p>
     </div>{/* /.col-lg-4 */}
   </div>{/* /.row */}</div>
